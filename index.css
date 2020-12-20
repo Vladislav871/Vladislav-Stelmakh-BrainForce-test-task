@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.Container {
+    width: 90%;
+    height: 100%;
+}
+
+.Container > table {
+    width: 100%;
+    margin: 10px 0px;
+
+    border: 1px solid black;
+}
+
+.HeadOfTable {
+    background-color: gray;
+}
