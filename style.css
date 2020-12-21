@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.Container {
+    width: 90%;
+    height: 100%;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Container > table {
+    width: 100%;
+    margin: 10px 0px;
+
+    border: 1px solid black;
+}
+
+.HeadOfTable {
+    background-color: gray;
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer > #avrCost1 {
+    width: 33.33%;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#avrCost1 > p {
+    margin: 5px 0;
+}
+
+.footer > #avrCost2 {
+    width: 33.33%;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#avrCost2 > p {
+    margin: 5px 0;
+}
+
+.footer > #commonQuantity {
+    width: 33.33%;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#commonQuantity > table {
+    width: 100%;
+
+    border: 1px solid black;
+}
+
+.Expensive {
+    background-color: red;
+}
+
+.Cheap {
+    background-color: green;
+}
